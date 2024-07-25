@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+     padding: 10px;
+   flex-direction: column;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('/assets/images/borderimage.jpg') ;
+    border: 10px solid transparent;
+    border-image: url('/assets/images/borderimage.jpg') 30 round;
+    overflow: auto;
+  }
+  
+ 
+  .signature {
+    font-family: 'Brush Script MT', cursive;
+  }
